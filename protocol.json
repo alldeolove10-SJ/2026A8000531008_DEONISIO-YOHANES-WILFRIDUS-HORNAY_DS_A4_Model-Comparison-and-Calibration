@@ -1,0 +1,24 @@
+{
+  "dataset": "Wisconsin Diagnostic Breast Cancer (scikit-learn loader frozen to CSV)",
+  "dataset_csv": "data/wdbc_sklearn_frozen.csv",
+  "dataset_sha256": "af399a019264f7999e6b395ee90576e46564867aa4c8a40797c96be87dc1be55",
+  "positive_class": "malignant (1); benign (0)",
+  "random_seed": 42,
+  "test_split": "stratified 80/20",
+  "cv": "StratifiedKFold(n_splits=5, shuffle=True, random_state=42)",
+  "preprocessing": "median imputation + standardization inside each model pipeline",
+  "candidate_models": [
+    "Prior-only DummyClassifier",
+    "LogisticRegression",
+    "RandomForestClassifier",
+    "HistGradientBoostingClassifier"
+  ],
+  "primary_metric": "TODO: select and justify before final interpretation",
+  "minimum_meaningful_difference": "TODO: define and justify",
+  "false_positive_cost": "TODO: specify in the decision context",
+  "false_negative_cost": "TODO: specify in the decision context",
+  "human_review_capacity": "TODO: specify and justify",
+  "threshold_selection_rule": "TODO: define using costs and capacity; do not select using the held-out test set",
+  "critical_slices": "Current feature slice by training-derived mean-radius quartiles is exploratory; justify or replace it for the assignment",
+  "claim_boundary": "Educational benchmark only; no clinical use; predictive association is not causal"
+}
