@@ -1,0 +1,2 @@
+comparison,difference,ci_low,ci_high,valid_bootstrap_replicates,requested_replicates
+Logistic regression minus Prior baseline (training OOF AP),0.6207147824948578,0.5773644660142617,0.6653646830112503,1000,1000
