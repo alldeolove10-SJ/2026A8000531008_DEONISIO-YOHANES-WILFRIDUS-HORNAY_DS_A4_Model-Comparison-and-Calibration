@@ -77,7 +77,7 @@ These files provide more details about model performance and the comparison resu
 - scikit-learn
 - Matplotlib
 - Jupyter Notebook
-
+But in my6 case I am using Hupyter Notebook
 Install the required libraries with:
 
 ```bash
